@@ -13,6 +13,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    class func getAppDelegate() -> AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    
+    func showAlert(_ title: String,_ message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        
+        let dismissAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) { (action) -> Void in
+        }
+        
+        alertController.addAction(dismissAction)
+        
+        if self.window?.rootViewController is UINavigationController {
+            let pushedViewControllers = (self.window?.rootViewController as! UINavigationController).viewControllers
+            let presentedViewController = pushedViewControllers[pushedViewControllers.count - 1]
+            presentedViewController.present(alertController, animated: true, completion: nil)
+        } else {
+            // just a UIViewController
+            let presentedViewCtonroller = self.window?.rootViewController
+            presentedViewCtonroller?.present(alertController, animated: true, completion: nil)
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF12091F2140D7AF003BB362 /* drugs.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = AF12091E2140D7AF003BB362 /* drugs.sqlite3 */; };
+		AF3108D4213EC6510057C953 /* DrugDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3108D3213EC6510057C953 /* DrugDB.swift */; };
+		AF3ADAD8213CBCD000AB5A88 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ADAD7213CBCD000AB5A88 /* SearchViewController.swift */; };
+		AF5C09452139659300F8F4CB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C09442139659300F8F4CB /* String+Extension.swift */; };
+		AF640E8921385B13006794B1 /* NSError+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF640E8821385B13006794B1 /* NSError+Extension.swift */; };
+		AF670ABF213F762600305671 /* DrugDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF670ABE213F762600305671 /* DrugDetailViewController.swift */; };
+		AF7953902140766E00B4B12A /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79538F2140766E00B4B12A /* Optional+Extension.swift */; };
 		AF873027213848B8003CE73B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF873026213848B8003CE73B /* AppDelegate.swift */; };
-		AF873029213848B8003CE73B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF873028213848B8003CE73B /* ViewController.swift */; };
 		AF87302C213848B8003CE73B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF87302A213848B8003CE73B /* Main.storyboard */; };
 		AF87302E213848B9003CE73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF87302D213848B9003CE73B /* Assets.xcassets */; };
 		AF873031213848B9003CE73B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF87302F213848B9003CE73B /* LaunchScreen.storyboard */; };
+		AF873039213849F4003CE73B /* OpenFDA.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF873038213849F4003CE73B /* OpenFDA.swift */; };
+		AF9DD2682139A17B0065ADD4 /* MedicationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9DD2672139A17B0065ADD4 /* MedicationDetailVC.swift */; };
+		D4BACEE5FF400AA2A10C5D9A /* Pods_OpenFDA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40859679F67A43F4D88AEDF /* Pods_OpenFDA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5C84716DFE89F51B54CB2F0 /* Pods-OpenFDA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFDA.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFDA/Pods-OpenFDA.release.xcconfig"; sourceTree = "<group>"; };
+		AF12091E2140D7AF003BB362 /* drugs.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = drugs.sqlite3; sourceTree = "<group>"; };
+		AF3108D3213EC6510057C953 /* DrugDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugDB.swift; sourceTree = "<group>"; };
+		AF3ADAD7213CBCD000AB5A88 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AF5C09442139659300F8F4CB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		AF640E8821385B13006794B1 /* NSError+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Extension.swift"; sourceTree = "<group>"; };
+		AF640E8A213870CB006794B1 /* strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = strings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AF670ABE213F762600305671 /* DrugDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugDetailViewController.swift; sourceTree = "<group>"; };
+		AF79538F2140766E00B4B12A /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
 		AF873023213848B8003CE73B /* OpenFDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF873026213848B8003CE73B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF873028213848B8003CE73B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF87302B213848B8003CE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF87302D213848B9003CE73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF873030213848B9003CE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF873032213848B9003CE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF873038213849F4003CE73B /* OpenFDA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFDA.swift; sourceTree = "<group>"; };
+		AF9DD2672139A17B0065ADD4 /* MedicationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailVC.swift; sourceTree = "<group>"; };
+		B40859679F67A43F4D88AEDF /* Pods_OpenFDA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenFDA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD17EFD0C5902D637F1F9FF /* Pods-OpenFDA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFDA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFDA/Pods-OpenFDA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BACEE5FF400AA2A10C5D9A /* Pods_OpenFDA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098CF1706029B4188C2295A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B40859679F67A43F4D88AEDF /* Pods_OpenFDA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68FC634BB63E1074BFB89F65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD17EFD0C5902D637F1F9FF /* Pods-OpenFDA.debug.xcconfig */,
+				A5C84716DFE89F51B54CB2F0 /* Pods-OpenFDA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF6F8FCD21418FC000C5D78B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C09442139659300F8F4CB /* String+Extension.swift */,
+				AF640E8821385B13006794B1 /* NSError+Extension.swift */,
+				AF79538F2140766E00B4B12A /* Optional+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF6F8FCE21418FD700C5D78B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF670ABE213F762600305671 /* DrugDetailViewController.swift */,
+				AF9DD2672139A17B0065ADD4 /* MedicationDetailVC.swift */,
+				AF3ADAD7213CBCD000AB5A88 /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF6F8FCF21418FE600C5D78B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF12091E2140D7AF003BB362 /* drugs.sqlite3 */,
+				AF3108D3213EC6510057C953 /* DrugDB.swift */,
+				AF873038213849F4003CE73B /* OpenFDA.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF6F8FD021418FFD00C5D78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF87302D213848B9003CE73B /* Assets.xcassets */,
+				AF873032213848B9003CE73B /* Info.plist */,
+				AF87302F213848B9003CE73B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AF87301A213848B8003CE73B = {
 			isa = PBXGroup;
 			children = (
 				AF873025213848B8003CE73B /* OpenFDA */,
 				AF873024213848B8003CE73B /* Products */,
+				68FC634BB63E1074BFB89F65 /* Pods */,
+				098CF1706029B4188C2295A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +136,12 @@
 			isa = PBXGroup;
 			children = (
 				AF873026213848B8003CE73B /* AppDelegate.swift */,
-				AF873028213848B8003CE73B /* ViewController.swift */,
 				AF87302A213848B8003CE73B /* Main.storyboard */,
-				AF87302D213848B9003CE73B /* Assets.xcassets */,
-				AF87302F213848B9003CE73B /* LaunchScreen.storyboard */,
-				AF873032213848B9003CE73B /* Info.plist */,
+				AF6F8FCD21418FC000C5D78B /* Extensions */,
+				AF6F8FCF21418FE600C5D78B /* Model */,
+				AF6F8FD021418FFD00C5D78B /* Supporting Files */,
+				AF640E8A213870CB006794B1 /* strings.playground */,
+				AF6F8FCE21418FD700C5D78B /* ViewControllers */,
 			);
 			path = OpenFDA;
 			sourceTree = "<group>";
@@ -71,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF873035213848B9003CE73B /* Build configuration list for PBXNativeTarget "OpenFDA" */;
 			buildPhases = (
+				C330634C6B054A0D8790A7F3 /* [CP] Check Pods Manifest.lock */,
 				AF87301F213848B8003CE73B /* Sources */,
 				AF873020213848B8003CE73B /* Frameworks */,
 				AF873021213848B8003CE73B /* Resources */,
+				4F63C2C424FD2B3D004E8935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF873031213848B9003CE73B /* LaunchScreen.storyboard in Resources */,
+				AF12091F2140D7AF003BB362 /* drugs.sqlite3 in Resources */,
 				AF87302E213848B9003CE73B /* Assets.xcassets in Resources */,
 				AF87302C213848B8003CE73B /* Main.storyboard in Resources */,
 			);
@@ -130,13 +215,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F63C2C424FD2B3D004E8935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OpenFDA/Pods-OpenFDA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenFDA/Pods-OpenFDA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C330634C6B054A0D8790A7F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenFDA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF87301F213848B8003CE73B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF873029213848B8003CE73B /* ViewController.swift in Sources */,
+				AF670ABF213F762600305671 /* DrugDetailViewController.swift in Sources */,
+				AF3ADAD8213CBCD000AB5A88 /* SearchViewController.swift in Sources */,
+				AF640E8921385B13006794B1 /* NSError+Extension.swift in Sources */,
+				AF873039213849F4003CE73B /* OpenFDA.swift in Sources */,
+				AF5C09452139659300F8F4CB /* String+Extension.swift in Sources */,
+				AF9DD2682139A17B0065ADD4 /* MedicationDetailVC.swift in Sources */,
+				AF7953902140766E00B4B12A /* Optional+Extension.swift in Sources */,
 				AF873027213848B8003CE73B /* AppDelegate.swift in Sources */,
+				AF3108D4213EC6510057C953 /* DrugDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +411,12 @@
 		};
 		AF873036213848B9003CE73B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD17EFD0C5902D637F1F9FF /* Pods-OpenFDA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDLR95E4T8;
-				INFOPLIST_FILE = OpenFDA/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenFDA/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +430,12 @@
 		};
 		AF873037213848B9003CE73B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C84716DFE89F51B54CB2F0 /* Pods-OpenFDA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDLR95E4T8;
-				INFOPLIST_FILE = OpenFDA/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenFDA/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
